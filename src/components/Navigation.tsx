@@ -22,7 +22,7 @@ const Navigation = () => {
     { label: 'Research', href: '#features' },
     { label: 'How it Works', href: '#how-it-works' },
     { label: 'Impact', href: '#testimonials' },
-    { label: 'Pricing', href: '#pricing' },
+    { label: 'Contact', href: '/contact' },
     { label: 'FAQ', href: '#faq' }
   ];
 

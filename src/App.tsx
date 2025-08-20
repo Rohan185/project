@@ -8,7 +8,7 @@ import BlogPost from './pages/BlogPost';
 import { AuroraSiteBackground } from './components/ui/aurora-site-background';
 import FloatingConnect from '@/components/ui/floating-connect';
 import { NavBar } from '@/components/ui/tubelight-navbar';
-import { Home as HomeIcon, FlaskConical, Users, BadgeDollarSign, HelpCircle } from 'lucide-react';
+import { Home as HomeIcon, FlaskConical, Users, HelpCircle, Mail } from 'lucide-react';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
             { name: 'Home', url: '/', icon: HomeIcon },
             { name: 'Research', url: '#features', icon: FlaskConical },
             { name: 'Impact', url: '#testimonials', icon: Users },
-            { name: 'Pricing', url: '#pricing', icon: BadgeDollarSign },
+            { name: 'Contact', url: '/contact', icon: Mail },
             { name: 'FAQ', url: '#faq', icon: HelpCircle },
           ]}
         />

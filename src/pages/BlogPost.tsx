@@ -191,7 +191,7 @@ const BlogPost = () => {
               <h3 className="text-2xl font-light tracking-tight mb-4">Ready to start trading?</h3>
               <p className="text-slate-400 mb-8">Join thousands of traders using Dyoma's AI-powered platform.</p>
               <Link 
-                to="/#pricing" 
+                to="/contact" 
                 className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-500/20 via-purple-500/20 to-pink-500/20 border border-blue-500/30 text-white rounded-2xl hover:shadow-[0_0_30px_rgba(59,130,246,0.5)] transition-all duration-300"
               >
                 Get Started Today
